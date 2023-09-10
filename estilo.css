@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+  }
+
+html{
+  scroll-behavior: smooth;
+}
+
+  nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+  }
+
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.6s;
+  }
+  
+  .main-nav li:hover .sub-menu {
+    left: 0;
+    opacity: 1;
+    transition: opacity 0.5s ease; 
+  }
+
+ body {
+  background-attachment: fixed;
+  background-size: cover; /* Isso ajustará a imagem para cobrir a tela inteira */
+}
+ h1 {
+   font-size: 25px;
+   color:white;
+ }
+ 
+ h2 {
+   font-size: 28px;
+   color: white;
+   text-align: center;
+   -webkit-text-stroke: 0.05px #F8F8F8;
+	text-shadow: 0.5px 0.5px 2px #000000;
+ }
+ 
+ h4 {
+	 font-size: 18px;
+	 color: white;
+	 text-align: justify;
+	 margin-bottom: 20px;
+	-webkit-text-stroke: 0.05px #F8F8F8;
+	text-shadow: 0px 0.5px 2px #000000;
+ }
+ 
+ h5 {
+	 color: black;
+ }
+ 
+ .s1 {
+	 background-image: url("cores.jpg");
+	 animation: fadeIn 3s;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-attachment: fixed;
+	 padding-bottom: 0;
+ }
+ 
+.marcas {
+	background-image: url("cores.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-attachment: fixed;
+}
+ 
+ #titulo {
+  padding-top: 24%;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+	animation: fadeIn 3s;
+}
+
+#t2 {
+	animation: fadeIn 5s;
+	text-align: center;
+}
+
+#tipos {
+	padding-top:12%;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+}
+
+#tiposm {
+	padding-top:12%;
+	text-align: center;
+	color: white;
+	font-size: 28px;
+}
+
+#marcas {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+#PVA {
+	color: white;
+}
+
+#t1 {
+	text-align: center;
+	color: black;
+	padding-bottom: 16%;
+	font-size: 18px;
+}
+
+#tm {
+	padding-top:12%;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+#tm2 {
+	text-align: center;
+	color: white;
+	padding-bottom: 16%;
+	font-size: 18px;
+}
+
+#tintas {
+	padding-top:26%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: justify;
+}
+
+#marc4s {
+	text-align: center;
+	color: white;
+	padding-bottom: 0%;
+	font-size: 14px;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+#m_img {
+	padding-bottom:20%;
+	padding-top: 5%;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#rodape {
+	color: black;
+}
+
+#rodape2 {
+	color: black;
+}
+
+input[type="textarea"], textarea {
+	resize: none;
+} 
+
+#rdp3 {
+	margin-top: 95px;
+}
+
+#rdp1 {
+	position: absolute;
+}
+
+footer {
+	margin-top: 355px;
+    width: 100%;
+	height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+	bottom: 0;
+}
+
+@media (max-width: 768px)
