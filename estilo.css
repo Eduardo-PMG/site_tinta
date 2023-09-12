@@ -35,12 +35,12 @@ html{
 }
  h1 {
    font-size: 25px;
-   color:white;
+   color:black;
  }
  
  h2 {
    font-size: 28px;
-   color: white;
+   color: black;
    text-align: center;
    -webkit-text-stroke: 0.05px #F8F8F8;
 	text-shadow: 0.5px 0.5px 2px #000000;
@@ -48,7 +48,7 @@ html{
  
  h4 {
 	 font-size: 18px;
-	 color: white;
+	 color: black;
 	 text-align: justify;
 	 margin-bottom: 20px;
 	-webkit-text-stroke: 0.05px #F8F8F8;
@@ -98,7 +98,7 @@ html{
 #tiposm {
 	padding-top:12%;
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 28px;
 }
 
@@ -109,7 +109,13 @@ html{
 }
 
 #PVA {
-	color: white;
+	color: black;
+}
+
+#pv4 {
+	text-align: justify;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 #t1 {
@@ -122,13 +128,13 @@ html{
 #tm {
 	padding-top:12%;
 	text-align: center;
-	color: white;
+	color: rgb(0, 0, 0);
 	font-size: 30px;
 }
 
 #tm2 {
 	text-align: center;
-	color: white;
+	color: rgb(0, 0, 0);
 	padding-bottom: 16%;
 	font-size: 18px;
 }
