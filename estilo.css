@@ -42,8 +42,6 @@ html{
    font-size: 28px;
    color: black;
    text-align: center;
-   -webkit-text-stroke: 0.05px #F8F8F8;
-	text-shadow: 0.5px 0.5px 2px #000000;
  }
  
  h4 {
@@ -51,8 +49,6 @@ html{
 	 color: black;
 	 text-align: justify;
 	 margin-bottom: 20px;
-	-webkit-text-stroke: 0.05px #F8F8F8;
-	text-shadow: 0px 0.5px 2px #000000;
  }
  
  h5 {
@@ -86,6 +82,7 @@ html{
 #t2 {
 	animation: fadeIn 5s;
 	text-align: center;
+	color: white;
 }
 
 #tipos {
@@ -178,7 +175,7 @@ input[type="textarea"], textarea {
 } 
 
 #rdp3 {
-	margin-top: 95px;
+	margin-top: 105%;
 }
 
 #rdp1 {
