@@ -46,7 +46,7 @@ html{
  
  h4 {
 	 font-size: 18px;
-	 color: black;
+	 color: rgb(0, 0, 0);
 	 text-align: justify;
 	 margin-bottom: 20px;
  }
@@ -114,7 +114,6 @@ html{
 	margin-left: 25%;
 	margin-right: 25%;
 }
-
 #t1 {
 	text-align: center;
 	color: black;
